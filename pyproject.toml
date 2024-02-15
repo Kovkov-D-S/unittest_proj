@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "unittest-proj"
+version = "0.1.0"
+description = ""
+authors = ["Kovkov-D-S <158774590+Kovkov-D-S@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+coverage = "7.0.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
